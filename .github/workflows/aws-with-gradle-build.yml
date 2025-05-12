@@ -68,9 +68,6 @@ jobs:
       uses: gradle/actions/setup-gradle@v3
       with:
         build-root-directory: ./
-
-    - name: Build with Gradle
-      run: docker build
     
     - name: Build, tag, and push image to Amazon ECR
       id: build-image
