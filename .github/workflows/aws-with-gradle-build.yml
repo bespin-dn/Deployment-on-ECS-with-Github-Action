@@ -32,7 +32,7 @@ on:
 
 env:
   AWS_REGION: ap-southeast-2                                                                  # set this to your preferred AWS region, e.g. us-west-1
-  ECR_REPOSITORY: 603229842386.dkr.ecr.ap-southeast-2.amazonaws.com/gs-githubaction           # set this to your Amazon ECR repository name
+  ECR_REPOSITORY: gs-githubaction                                                             # set this to your Amazon ECR repository name
   ECS_SERVICE: gs-github-action-taskdef-service-mxi0ahax                                      # set this to your Amazon ECS service name
   ECS_CLUSTER: gs-cluster                                                                     # set this to your Amazon ECS cluster name
   ECS_TASK_DEFINITION: gs-github-action-taskdef                                               # set this to the path to your Amazon ECS task definition
