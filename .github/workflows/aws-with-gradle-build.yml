@@ -68,6 +68,12 @@ jobs:
       uses: gradle/actions/setup-gradle@v3
       with:
         build-root-directory: ./
+    - name: Build with Gradle
+      run: |
+        ./gradlew build
+        echo "pwd: $PWD"
+        echo "ls: $(ls -al)"
+        echo "gradle build completed"
     
     - name: Build, tag, and push image to Amazon ECR
       id: build-image
