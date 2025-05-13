@@ -110,7 +110,7 @@
         <input type="hidden" id="ciphertext">
         <button id="decryptButton" type="button" onclick="submitDecryptForm()" style="display:none;">Decrypt</button>
         <div id="decryptResult" class="result"></div>
-	<p1>V1</p1>
+	<p1>V2</p1>
     </div>
 </body>
 </html>
